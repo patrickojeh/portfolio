@@ -1,6 +1,6 @@
 # Portfolio
 
-Personal online portfolio (hosted on Netlify).
+My portfolio (hosted on Netlify).
 
 ---
 
