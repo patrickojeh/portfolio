@@ -10,7 +10,7 @@ const About = lazy(() => import('./pages/About'));
 
 function App() {
   return <Fragment>
-    <Suspense fallback="<h1>pls wait</h1>">
+    <Suspense fallback="<h1>...</h1>">
       <Switch>
         <Route path="/" exact>
           <Home />
