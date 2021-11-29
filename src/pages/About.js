@@ -3,7 +3,7 @@ import portrait from "../images/portrait.png";
 
 const About = () => {
   return <Layout>
-    <div className="mw9 ph5-l ph4-ns ph35 center pt5-l pt4 mt4-l">
+    <div className="mw9 ph5-l ph4-ns ph35 center pt5 mt4-l">
       <div className="flex justify-between-ns flex-row-l flex-column">
         <div className="w-60-l w-100-m">
           <h1 className="mw8 f2-l f3-m f4 lh-copy pr6-l mb4-l mb2 mw7-l pr6-l">I’m Patrick Ojeh. I’m a product designer & part-time developer currently based in Lagos Nigeria.</h1>
