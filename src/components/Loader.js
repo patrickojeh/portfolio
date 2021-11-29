@@ -5,7 +5,7 @@ import Spinner from 'react-loader-spinner';
 const Loader = () => {
   return <Fragment>
     <Header />
-    <div className="tc pt5">
+    <div className="tc pt6">
       <Spinner type="TailSpin" color="#fff" height={40} width={40} />
     </div>
   </Fragment>

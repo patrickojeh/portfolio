@@ -9,7 +9,7 @@ const Contact = lazy(() => import('./pages/Contact'));
 const CaseStudy = lazy(() => import('./pages/CaseStudy'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
-function App() {
+function App() {  
   return <Fragment>
     <Suspense fallback={<Loader />}>
       <Switch>
