@@ -2,7 +2,7 @@ import Layout from "../components/Layout/Layout";
 
 const Prowork = () => {
   return <Layout>
-    <div className="mw9 ph5-l ph4-ns ph35 center pt4 mt3-l">
+    <div className="mw9 ph5-l ph4-ns ph35 center pt4 pt5-l mt4-l">
       <div className="w-100">
         <h1 className="mw8 f2-l f3-m f4 lh-copy pr6-l mb4-l mb2 mw7-l pr6-l">Prowork</h1>
       </div>
