@@ -2,6 +2,7 @@ import Layout from '../components/Layout/Layout';
 import signature from '../svg/signature.svg'
 import { Link } from 'react-router-dom';
 import proworkCoverImage from '../images/projects/prowork/cover.svg';
+import proworkCoverImageMobile from '../images/projects/prowork/cover.png';
 import todoCoverImage from '../images/projects/todo/cover.svg';
 import ussdCoverImage from '../images/projects/ussd/cover.png';
 
@@ -15,7 +16,8 @@ const Home = () => {
           <div className="project-grid__item">
             <div className="bg-near-black h5-l h4-ns h5 br2 mb4-ns mb3">
               <Link to="/cs/prowork">
-                <img src={proworkCoverImage} alt="Project cover" className="h-100 w-100" />
+                <img src={proworkCoverImage} alt="Project cover" className="h-100 w-100 db-ns dn" />
+                <img src={proworkCoverImageMobile} alt="Project cover" className="h-100 w-100 dn-ns db" />
               </Link>
             </div>
             <b className="f4-ns lh-copy fw5">Prowork</b>
