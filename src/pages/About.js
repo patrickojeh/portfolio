@@ -10,7 +10,7 @@ const About = () => {
           <p className="f4-ns lh-copy pt3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis accusantium minima voluptates unde accusamus necessitatibus autem corrupti illo. Distinctio alias deserunt repudiandae exercitationem. Tempora officia maiores corporis adipisci impedit dolore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione atque eius ut asperiores consectetur quas est cupiditate amet maxime at saepe, obcaecati dolores! Quibusdam et ratione possimus, voluptate neque quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro dignissimos necessitat.</p>
           <p className="f4-ns lh-copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis accusantium minima voluptates unde accusamus necessitatibus autem corrupti illo. Distinctio alias deserunt repudiandae exercitationem. Tempora officia maiores corporis adipisci impedit dolore. Lorem ipsum dolor, sit amet consectetur.</p>
         </div>
-        <div className="w-30-l w-100-m mt0-l mt4 mt5-l">
+        <div className="w-30-l w-60-m mt0-l mt4 mt5-l">
           <img src={portrait} alt="A photo of me" />
         </div>
       </div>

@@ -28,5 +28,8 @@ a {
   color: currentColor;
   text-decoration: none;
 }
+::selection {
+  background: #292a2d;
+}
 
 @import "fonts";

@@ -3,6 +3,7 @@ import signature from '../svg/signature.svg'
 import { Link } from 'react-router-dom';
 import proworkCoverImage from '../images/projects/prowork/cover.svg';
 import todoCoverImage from '../images/projects/todo/cover.svg';
+import ussdCoverImage from '../images/projects/ussd/cover.png';
 
 const Home = () => {
   return <Layout>
@@ -48,12 +49,12 @@ const Home = () => {
             <p className="f4-ns lh-copy mt1">Side Project</p>
           </div>
           <div className="project-grid__item">
-            <div className="bg-near-black h5-l h4-ns h5 br2 mb4-ns mb3">
-              <Link to="/cs/casia">
-                {/* <img src="" alt="r" className="h-100 w-100" /> */}
-              </Link>
+            <div className="bg-near-black h5-l h4-ns h5 br2 mb4-ns mb3">              
+              <a href="https://ussd.patrickojeh.com" target="_blank">
+                <img src={ussdCoverImage} alt="Project cover" className="h-100 w-100" />
+              </a>
             </div>
-            <b className="f4-ns lh-copy fw5">-</b>
+            <b className="f4-ns lh-copy fw5">USSD</b>
             <p className="f4-ns lh-copy mt1">Side Project</p>
           </div>
           <div className="project-grid__item">
