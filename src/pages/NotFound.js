@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const NotFound = () => {
   return <Layout>
-    <div className="mw7 ph5-l ph4-ns ph35 center pt6-l pt5 pb6-l pb4">
+    <div className="mw7 ph5-l ph4-ns ph35 center pt6-l pt5 pb5-l pb4">
       <h1 className="mw8 f2-l f3-m f4 lh-copy pr6-l mb3-l mb4">
         404 : Page Not Found
       </h1>
