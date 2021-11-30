@@ -14,7 +14,7 @@
   object-position: left 0;
   object-fit: cover;
 }
-.project-grid a {
+.project-grid div:not(.project-grid__item) a {
   display: block;
   overflow: hidden;
   height: 100%;

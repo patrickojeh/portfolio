@@ -20,7 +20,9 @@ const Home = () => {
                 <img src={proworkCoverImageMobile} alt="Project cover" className="h-100 w-100 dn-ns db" />
               </Link>
             </div>
-            <b className="f4-ns lh-copy fw5">Prowork</b>
+            <Link to="/cs/prowork">
+              <b className="f4-ns lh-copy fw5">Prowork</b>
+            </Link>
             <p className="f4-ns lh-copy mt1">Case Study</p>
           </div>
           <div className="project-grid__item">
@@ -47,7 +49,9 @@ const Home = () => {
                 <img src={todoCoverImage} alt="Project cover" className="h-100 w-100" />
               </a>
             </div>
-            <b className="f4-ns lh-copy fw5">Todo</b>
+            <a href="https://todo.patrickojeh.com" target="_blank">
+              <b className="f4-ns lh-copy fw5">Todo</b>
+            </a>
             <p className="f4-ns lh-copy mt1">Side Project</p>
           </div>
           <div className="project-grid__item">
@@ -56,7 +60,9 @@ const Home = () => {
                 <img src={ussdCoverImage} alt="Project cover" className="h-100 w-100" />
               </a>
             </div>
-            <b className="f4-ns lh-copy fw5">USSD</b>
+            <a href="https://ussd.patrickojeh.com" target="_blank">
+              <b className="f4-ns lh-copy fw5">USSD</b>
+            </a>
             <p className="f4-ns lh-copy mt1">Side Project</p>
           </div>
           <div className="project-grid__item">
