@@ -24,12 +24,23 @@ h2,
 h3 {
   font-weight: normal;
 }
+
 a {
   color: currentColor;
   text-decoration: none;
 }
+
 ::selection {
   background: #292a2d;
+}
+
+::-webkit-scrollbar {
+  width: 0.6em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  outline: 1px solid #555;
 }
 
 @import "fonts";
