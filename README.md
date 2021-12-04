@@ -13,7 +13,7 @@ My portfolio (hosted on Netlify).
 ### Build Setup
 
 ```bash
-# install dependencie
+# install dependencies
 npm install
 
 # serve with hot reload at localhost:3000
