@@ -14,8 +14,8 @@ My portfolio (hosted on Netlify).
 
 ```bash
 # install dependencie
-`npm install`
+npm install
 
 # serve with hot reload at localhost:3000
-`npm start`
+npm start
 ```
