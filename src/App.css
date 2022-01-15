@@ -24,7 +24,7 @@ p {
 }
 a.resume {
   background: #232323;
-  display: block;
+  font-size: 1.1rem;
   padding: 28px 28px 30px;
   position: relative;
   top: 28px;
