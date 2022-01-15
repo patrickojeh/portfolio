@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="mw9 ph5-l ph4-ns ph35 center pt6 pb5-l">
       <div className="flex items-end-l justify-between-l flex-row-l flex-column-l flex-column-reverse pb2">
         <div className="pt0-l pt5 flex flex-column-l flex-row justify-between">
-          <div className="pt3">© Copyright 2021.</div>
+          <p className="pb4">© Copyright 2021.</p>
         </div>
         <div className="w-30-l w5-m flex justify-between-l flex-row-l flex-column">
           <ol className="list pa0 ma0">
@@ -25,7 +25,7 @@ const Footer = () => {
               <a href="tel:+2348038392060">(+234) 80 3839 2060</a>
               </li>
             <li className="mt4">
-            <a href="mailto:hi@patrickojeh.com">hi@patrickojeh.com</a>
+              <a href="mailto:hi@patrickojeh.com">hi@patrickojeh.com</a>
             </li>
           </ol>
         </div>
