@@ -7,7 +7,7 @@ const Header = () => {
         <span className="logo">
           <Link to="/">Patrick O.</Link>
         </span>
-        <ol className="list pa0 ma0 mt0-ns mt4">
+        <ol className="list pa0 ma0">
           <li className="fl w-auto pl4-ns">
             <a href="mailto:patrickojeh@gmail.com">📨 &nbsp; Email</a>
           </li>

@@ -17,7 +17,7 @@ const Home = () => {
           <p className="lh-copy f4">In my spare time, you'd fine me learning something new, playing video games or working on a personal project.</p>
         </div>
         <div className="w-40-l">
-          <a href="https://standardresume.co/r/EjNxM6qkJXzbbTPhyI05v" className="resume flex justify-between" target="_blank">
+          <a href="https://standardresume.co/r/EjNxM6qkJXzbbTPhyI05v" className="resume-link flex justify-between" target="_blank">
             <span>My resume</span>
             &rarr;
           </a>

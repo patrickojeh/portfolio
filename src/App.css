@@ -22,10 +22,10 @@
 p {
   color: rgb(170, 170, 170);
 }
-a.resume {
+.resume-link {
   background: #232323;
   font-size: 1.1rem;
-  padding: 28px 28px 30px;
+  padding: 24px 28px 26px;
   position: relative;
   top: 28px;
 }
@@ -41,6 +41,9 @@ a.resume {
   .project-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 56px;
+  }
+  .resume-link {
+    padding: 28px 28px 30px;
   }
 }
 @media screen and (max-width: 59.9em) {
