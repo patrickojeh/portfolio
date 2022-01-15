@@ -24,7 +24,7 @@ p {
 }
 .resume-link {
   background: #232323;
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding: 24px 28px 26px;
   position: relative;
   top: 28px;
@@ -43,6 +43,7 @@ p {
     gap: 56px;
   }
   .resume-link {
+    font-size: 1.1rem;
     padding: 28px 28px 30px;
   }
 }
