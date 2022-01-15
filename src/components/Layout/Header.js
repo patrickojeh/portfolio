@@ -9,7 +9,7 @@ const Header = () => {
         </span>
         <ol className="list pa0 ma0">
           <li className="fl w-auto pl4-ns">
-            <a href="mailto:patrickojeh@gmail.com">📨 &nbsp; Email</a>
+            <a href="mailto:patrickojeh@gmail.com" className="btn">📨 &nbsp; Email</a>
           </li>
         </ol>
       </div>

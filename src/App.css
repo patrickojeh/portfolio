@@ -19,6 +19,12 @@
   overflow: hidden;
   height: 100%;
 }
+.btn {
+  color: var(--white);
+  background: var(--near-black);
+  padding: 13px 24px 15px;
+  border-radius: 84px;
+}
 header {
   position: sticky;
   top: 0;
