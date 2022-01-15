@@ -9,17 +9,11 @@ const Header = () => {
         </span>
         <ol className="list pa0 ma0 mt0-ns mt4">
           <li className="fl w-auto pl4-ns">
-            <NavLink to="/about">About</NavLink>
-            </li>
-          <li className="fl w-auto pl4 ml3-ns">
-            <NavLink to="/work">Work</NavLink>
-          </li>
-          <li className="fl w-auto pl4 ml3-ns">
-            <NavLink to="/contact">Contact</NavLink>
+            <a href="mailto:patrickojeh@gmail.com">📨 &nbsp; Email</a>
           </li>
         </ol>
       </div>
-    </div>    
+    </div>
   </header>
 }
 

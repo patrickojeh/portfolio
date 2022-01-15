@@ -19,6 +19,16 @@
   overflow: hidden;
   height: 100%;
 }
+p {
+  color: rgb(170, 170, 170);
+}
+a.resume {
+  background: #232323;
+  display: block;
+  padding: 28px 28px 30px;
+  position: relative;
+  top: 28px;
+}
 
 @media screen and (min-width: 60em) {
   .f2-l {

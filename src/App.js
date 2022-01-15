@@ -9,7 +9,7 @@ const Contact = lazy(() => import('./pages/Contact'));
 const CaseStudy = lazy(() => import('./pages/CaseStudy'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
-function App() {  
+function App() {
   return <Fragment>
     <Suspense fallback={<Loader />}>
       <Switch>
@@ -17,14 +17,8 @@ function App() {
           <Home />
         </Route>
         <Route path="/about" exact>
-          <About />
+          <Home />
         </Route>
-        <Route path="/contact" exact>
-          <Contact />
-        </Route>
-        <Route path="/cs/:project" exact>
-          <CaseStudy />
-        </Route>      
         <Route path="*">
           <NotFound />
         </Route>

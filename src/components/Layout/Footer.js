@@ -4,11 +4,8 @@ import signature from '../../svg/signature.svg';
 const Footer = () => {
   return <footer>
     <div className="mw9 ph5-l ph4-ns ph35 center pt6 pb5-l">
-      <div className="flex items-start-l justify-between-l flex-row-l flex-column-l flex-column-reverse pb2">
+      <div className="flex items-end-l justify-between-l flex-row-l flex-column-l flex-column-reverse pb2">
         <div className="pt0-l pt5 flex flex-column-l flex-row justify-between">
-          <div>
-            <img src={signature} alt="My signature in svg" className="h-auto-ns h25 mb3" />
-          </div>
           <div className="pt3">© Copyright 2021.</div>
         </div>
         <div className="w-30-l w5-m flex justify-between-l flex-row-l flex-column">
@@ -17,7 +14,7 @@ const Footer = () => {
               <a href="https://github.com/patrickojeh" target="_blank">Github</a>
               </li>
             <li className="mt4">
-              <a href="https://instagram.com/patrickojeh" target="_blank">Instagram</a>
+              <a href="https://linkedin.com/in/patrickojeh" target="_blank">LinkedIn</a>
             </li>
             <li className="mt4">
               <a href="https://twitter.com/patrickojeh" target="_blank">Twitter</a>
@@ -33,7 +30,7 @@ const Footer = () => {
           </ol>
         </div>
       </div>
-    </div>    
+    </div>
   </footer>
 }
 
