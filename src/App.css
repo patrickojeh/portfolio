@@ -22,6 +22,7 @@
 .btn {
   color: var(--white);
   background: var(--near-black);
+  display: inline-block;
   padding: 13px 24px 15px;
   border-radius: 84px;
 }
@@ -37,7 +38,6 @@ p {
 }
 .resume-link {
   background: #232323;
-  display: inline-block;
   font-size: 1rem;
   padding: 24px 28px 26px;
   position: relative;
