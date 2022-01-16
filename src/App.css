@@ -25,6 +25,9 @@
   padding: 13px 24px 15px;
   border-radius: 84px;
 }
+.btn:hover {
+  transform: scale(1.05);
+}
 header {
   position: sticky;
   top: 0;
@@ -34,14 +37,18 @@ p {
 }
 .resume-link {
   background: #232323;
+  display: inline-block;
   font-size: 1rem;
   padding: 24px 28px 26px;
   position: relative;
-  transition: 0.2s ease-in-out all;
   top: 28px;
 }
 .resume-link:hover {
   transform: scale(1.05);
+}
+.btn,
+.resume-link {
+  transition: 0.2s ease-in-out all;
 }
 
 @media screen and (min-width: 60em) {
