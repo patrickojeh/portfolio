@@ -3,6 +3,8 @@ import signature from '../svg/signature.svg'
 import { Link } from 'react-router-dom';
 import proworkCoverImage from '../images/projects/prowork/cover.svg';
 import proworkCoverImageMobile from '../images/projects/prowork/cover.png';
+import ysmaCoverImage from '../images/projects/ysma/cover.png';
+import trybrassCoverImage from '../images/projects/trybrass/cover.png';
 import todoCoverImage from '../images/projects/todo/cover.svg';
 import ussdCoverImage from '../images/projects/ussd/cover.png';
 
@@ -15,33 +17,37 @@ const Home = () => {
       <div className="project-grid mt6-l mt5">
           <div className="project-grid__item">
             <div className="bg-near-black h5-l h4-ns h5 br2 mb4-ns mb3">
-              <Link to="/cs/prowork">
+              <a href="https://prowork.me" target="_blank">
                 <img src={proworkCoverImage} alt="Project cover" className="h-100 w-100 db-ns dn" />
                 <img src={proworkCoverImageMobile} alt="Project cover" className="h-100 w-100 dn-ns db" />
-              </Link>
+              </a>
             </div>
-            <Link to="/cs/prowork">
+            <a href="https://prowork.me" target="_blank">
               <b className="f4-ns lh-copy fw5">Prowork</b>
-            </Link>
-            <p className="f4-ns lh-copy mt1">Case Study</p>
+            </a>
+            <p className="f4-ns lh-copy mt1 relative">Case Study <span className="locked f6 absolute">Locked</span></p>
           </div>
           <div className="project-grid__item">
             <div className="bg-near-black h5-l h4-ns h5 br2 mb4-ns mb3">
-              <Link to="/cs/casia">
-                {/* <img src="" alt="r" className="h-100 w-100" /> */}
-              </Link>
+              <a href="https://trybrass.com" target="_blank">
+                <img src={trybrassCoverImage} alt="r" className="h-100 w-100" />
+              </a>
             </div>
-            <b className="f4-ns lh-copy fw5">-</b>
-            <p className="f4-ns lh-copy mt1">Case Study</p>
+            <a href="https://trybrass.com" target="_blank">
+              <b className="f4-ns lh-copy fw5">Trybrass</b>
+            </a>
+            <p className="f4-ns lh-copy mt1 relative">Case Study <span className="locked f6 absolute">Locked</span></p>
           </div>
           <div className="project-grid__item">
             <div className="bg-near-black h5-l h4-ns h5 br2 mb4-ns mb3">
-              <Link to="/cs/casia">
-                {/* <img src="" alt="r" className="h-100 w-100" /> */}
-              </Link>
+              <a href="https://museum.pau.edu.ng" target="_blank">
+                <img src={ysmaCoverImage} alt="r" className="h-100 w-100" />
+              </a>
             </div>
-            <b className="f4-ns lh-copy fw5">-</b>
-            <p className="f4-ns lh-copy mt1">Case Study</p>
+            <a href="https://museum.pau.edu.ng" target="_blank">
+              <b className="f4-ns lh-copy fw5">YSMA</b>
+            </a>
+            <p className="f4-ns lh-copy mt1 relative">Case Study <span className="locked f6 absolute">Locked</span></p>
           </div>
           <div className="project-grid__item">
             <div className="bg-near-black h5-l h4-ns h5 br2 mb4-ns mb3">
@@ -67,8 +73,8 @@ const Home = () => {
           </div>
           <div className="project-grid__item">
             <div className="bg-near-black h5-l h4-ns h5 br2 mb4-ns mb3">
-              <Link to="/cs/casia">
-                {/* <img src="" alt="r" className="h-100 w-100" /> */}
+              <Link to="/cs/404">
+
               </Link>
             </div>
             <b className="f4-ns lh-copy fw5">-</b>
