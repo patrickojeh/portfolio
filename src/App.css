@@ -23,8 +23,8 @@
   right: 0;
   padding: 6px 12px;
   border-radius: 6px;
-  background: rgb(255 0 0 / 31%);
-  color: var(--red);
+  background: rgb(255 0 0 / 30%);
+  color: #ff0000;
   font-weight: 500;
   margin-top: -12px;
 }
