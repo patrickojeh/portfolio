@@ -17,10 +17,10 @@ const Home = () => {
           <p className="lh-copy f4-ns">In my spare time, you'd find me learning something new, playing video games, or working on a personal project.</p>
         </div>
         <div className="w-40-l">
-          <a href="/resume.pdf" className="resume-link flex justify-between" target="_blank">
+          {/* <a href="/resume.pdf" className="resume-link flex justify-between" target="_blank">
             <span>My resume</span>
             &rarr;
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
