@@ -10,7 +10,7 @@ const Home = () => {
   return <Layout>
     <div className="mw9 ph5-l ph4-ns ph35 center pt6-l pt5">
       <img src={signature} alt="My signature in svg" className="h-auto-ns h25 mb3" />
-      <h1 className="mw8 f2-l f3-m f4 lh-copy pr6-l mb5-l mb4">Hi, I am Patrick Ojeh. I’m a product designer &amp; user interface engineer currently based in Lagos, Nigeria. I work at Mobnia where I design to solve business problems. I have experience in visual design, prototyping, CSS architecture &amp; front-end development.</h1>
+      <h1 className="mw8 f2-l f3-m f4 lh-copy pr6-l mb5-l mb4">Hi, I am Patrick Ojeh. I’m a product designer &amp; based in Lagos, Nigeria. I previously worked at Mobnia, a design &amp; development agency. I have experience in visual design, prototyping, CSS architecture &amp; front-end development.</h1>
       <div className="flex flex-column flex-row-l justify-between">
         <div className="w-50-l">
           <p className="lh-copy f4-ns">By day, I work as a senior product designer at Mobnia: a creative product development agency, where I use tools/technologies like Figma, Sketch, CSS Architecture, Javascript, Sass to solve business problems and create products that are both functional &amp; visually appealing.</p>
