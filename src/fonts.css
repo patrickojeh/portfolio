@@ -1,5 +1,11 @@
 @font-face {
   font-family: "messina";
+  font-weight: 300;
+  src: url("./fonts/MessinaSans-Light.ttf");
+  font-display: block;
+}
+@font-face {
+  font-family: "messina";
   font-weight: normal;
   src: url("./fonts/MessinaSans-Regular.ttf");
   font-display: block;
