@@ -1,13 +1,14 @@
 :root {
   --white: #fff;
   --near-black: #232323;
+  --coffee: #dabfb1;
 }
 
 body {
-  background: #000;
+  background: linear-gradient(45deg, #342622, #131211);
   color: var(--white);
   margin: 0;
-  font-family: gt, -apple-system, inter, BlinkMacSystemFont, "Segoe UI",
+  font-family: "messina sans", -apple-system, inter, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
     "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -22,12 +23,27 @@ code {
 h1,
 h2,
 h3 {
-  font-weight: normal;
+  font-weight: 600;
+}
+
+h1 span {
+  color: var(--coffee);
 }
 
 a {
-  color: currentColor;
+  color: var(--coffee);
   text-decoration: none;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.3;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 ::selection {
@@ -38,9 +54,29 @@ a {
   width: 0.6em;
 }
 
+::-webkit-scrollbar-track {
+  background: #4f3f39;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
 ::-webkit-scrollbar-thumb {
-  background-color: #555;
-  outline: 1px solid #555;
+  background-color: #151312;
+  outline: 1px solid #151312;
+}
+
+@media screen and (min-width: 60em) {
+  h1 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 1.15rem;
+  }
+}
+@media screen and (max-width: 59.9em) {
+
+}
+@media screen and (max-width: 29.9em) {
+
 }
 
 @import "fonts";

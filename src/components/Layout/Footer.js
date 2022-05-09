@@ -2,11 +2,13 @@ import { NavLink } from "react-router-dom";
 import signature from '../../svg/signature.svg';
 
 const Footer = () => {
-  return <footer>
+  const year = new Date().getFullYear();
+
+  return <footer className="footer">
     <div className="mw9 ph5-l ph4-ns ph35 center pt6 pb5-l">
       <div className="flex items-end-l justify-between-l flex-row-l flex-column-l flex-column-reverse pb2">
         <div className="pt0-l pt5 flex flex-column-l flex-row justify-between">
-          <p className="pb4 pb0-ns">© Copyright 2021.</p>
+          <p className="small pb4 pb0-ns">© Copyright {year}</p>
         </div>
         <div className="w-30-l w5-m flex justify-between-l flex-row-l flex-column">
           <ol className="list pa0 ma0">

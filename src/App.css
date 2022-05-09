@@ -20,10 +20,11 @@
   height: 100%;
 }
 .btn {
-  color: var(--white);
-  background: var(--near-black);
+  border: 1px solid var(--coffee);
+  color: var(--coffee);
+  background: transparent;
   display: inline-block;
-  padding: 13px 24px 15px;
+  padding: 11px 23px 13px;
   border-radius: 84px;
 }
 .btn:hover {
@@ -32,9 +33,6 @@
 header {
   position: sticky;
   top: 0;
-}
-p {
-  color: rgb(170, 170, 170);
 }
 .resume-link {
   background: #232323;
@@ -49,6 +47,15 @@ p {
 .btn,
 .resume-link {
   transition: 0.2s ease-in-out all;
+}
+.signature {
+  height: 48px;
+}
+.small {
+  font-size: 0.88rem;
+}
+.footer {
+  font-size: 0.88rem;
 }
 
 @media screen and (min-width: 60em) {
