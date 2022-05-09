@@ -8,7 +8,7 @@ body {
   background: linear-gradient(45deg, #342622, #131211);
   color: var(--white);
   margin: 0;
-  font-family: "messina sans", -apple-system, inter, BlinkMacSystemFont, "Segoe UI",
+  font-family: messina, -apple-system, inter, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
     "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;

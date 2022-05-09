@@ -1,12 +1,12 @@
 @font-face {
-  font-family: "gt";
+  font-family: "messina";
   font-weight: normal;
-  src: url("./fonts/GTWalsheimPro-Regular.ttf");
+  src: url("./fonts/MessinaSans-Regular.ttf");
   font-display: block;
 }
 @font-face {
-  font-family: "gt";
-  font-weight: 500;
-  src: url("./fonts/GTWalsheimPro-Medium.ttf");
+  font-family: "messina";
+  font-weight: 600;
+  src: url("./fonts/MessinaSans-SemiBold.ttf");
   font-display: block;
 }
