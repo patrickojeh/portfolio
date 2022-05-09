@@ -57,6 +57,11 @@ header {
 .footer {
   font-size: 0.88rem;
 }
+.copyright {
+  color: var(--coffee);
+  font-weight: 600;
+  font-size: 4rem;
+}
 
 @media screen and (min-width: 60em) {
   .f2-l {

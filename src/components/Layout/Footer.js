@@ -8,7 +8,8 @@ const Footer = () => {
     <div className="mw9 ph5-l ph4-ns ph35 center pt5 pb5-l">
       <div className="flex items-end-l justify-between-l flex-row-l flex-column-l flex-column-reverse pb2">
         <div className="pt0-l pt5 flex flex-column-l flex-row justify-between">
-          <p className="small pb4 pb0-ns">© Copyright {year}</p>
+          <span className="copyright dn dib-l">&copy;</span>
+          <p className="small pb4 pb0-ns mb0-ns"><span className="di di-m">©</span> Copyright {year}</p>
         </div>
         <div className="w-30-l w5-m flex justify-between-l flex-row-l flex-column">
           <ol className="list pa0 ma0">
