@@ -8,7 +8,7 @@ const NotFound = () => {
         404 : Page Not Found
       </h1>
       <p className="mb5-l">The page you tried to access cannot be found. You should try going home or contact me instead.</p>
-      <Link to="/contact" className="bb pb1 b--white-20">Contact me</Link>
+      <Link to="/contact">Contact me</Link>
     </div>
   </Layout>
 }
