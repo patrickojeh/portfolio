@@ -20,7 +20,7 @@ body {
 body::after {
   background: linear-gradient(45deg, #342622c6, #131211 70%);
   content: '';
-  height: 100vh;
+  height: 100%;
   left: 0;
   position: fixed;
   top: 0;
