@@ -7,8 +7,8 @@ const NotFound = () => {
       <h1 className="mw8">
         Page Not Found
       </h1>
-      <p className="mb5-l">The page you tried to access cannot be found. You should try going home or contact me instead.</p>
-      <Link to="/contact" className="btn">Contact me</Link>
+      <p className="mb5-l">Sorry, the page you're looking for couldn't be found.</p>
+      <Link to="/" className="btn">Go home</Link>
     </div>
   </Layout>
 }
