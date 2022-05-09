@@ -18,7 +18,7 @@ body {
 }
 
 body::after {
-  background: linear-gradient(to bottom, #342622be, #131211);
+  background: linear-gradient(45deg, #342622c6, #131211 70%);
   content: '';
   height: 100vh;
   left: 0;
