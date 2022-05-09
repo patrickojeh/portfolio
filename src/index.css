@@ -61,7 +61,7 @@ p {
 }
 
 ::selection {
-  background: #292a2d;
+  background: #000;
 }
 
 ::-webkit-scrollbar {
