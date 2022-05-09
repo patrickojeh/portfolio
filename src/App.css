@@ -60,7 +60,7 @@ header {
 .copyright {
   color: var(--coffee);
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 @media screen and (min-width: 60em) {
