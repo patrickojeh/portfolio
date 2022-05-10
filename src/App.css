@@ -31,7 +31,7 @@
   transform: scale(1.05);
 }
 header {
-  backdrop-filter: blur(48px);
+  /* backdrop-filter: blur(48px); */
   position: sticky;
   top: 0;
   top: 0;
