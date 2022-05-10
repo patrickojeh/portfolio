@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return <header>
-    <div className="mw9 ph5-l ph4-ns ph35 center pt4">
+    <div className="mw9 ph5-l ph4-ns ph35 center">
       <div className="flex items-center justify-between flex-row">
         <span className="logo">
           <Link to="/">Patrick O.</Link>
