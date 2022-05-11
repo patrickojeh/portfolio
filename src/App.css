@@ -85,9 +85,11 @@ header {
   top: 0;
   left: 0;
   overflow-x: hidden;
+  z-index: -1;
 }
 .shine {
   background: #354349;
+  border-radius: 360%;
   filter: blur(35px);
   height: 250px;
   left: 250px;
@@ -99,7 +101,7 @@ header {
 }
 
 .shine--right {
-  filter: blur(50px);
+  filter: blur(60px);
   height: 350px;
   left: auto;
   right: 250px;
