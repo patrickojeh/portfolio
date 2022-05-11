@@ -5,6 +5,7 @@ import proworkCoverImage from '../images/projects/prowork/cover.svg';
 import proworkCoverImageMobile from '../images/projects/prowork/cover.png';
 import todoCoverImage from '../images/projects/todo/cover.svg';
 import ussdCoverImage from '../images/projects/ussd/cover.png';
+import whiteArrow from '../images/white-arrow.svg';
 
 const Home = () => {
   return <Layout>
@@ -23,6 +24,12 @@ const Home = () => {
           </a> */}
         </div>
       </div>
+      <div className="shine"></div>
+      <div className="shine shine--right"></div>
+      <Link to="/work" className="sideNav dn flex-l">
+          <span>Work</span>
+          <img src={whiteArrow} />
+      </Link>
     </div>
   </Layout>
 }

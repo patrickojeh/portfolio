@@ -4,7 +4,7 @@ import signature from '../../svg/signature.svg';
 const Footer = () => {
   const year = new Date().getFullYear();
 
-  return <footer className="footer">
+  return <footer className="footer pr5-l">
     <div className="mw9 ph5-l ph4-ns ph35 center pt5 pb5-l">
       <div className="flex items-end-l justify-between-l flex-row-l flex-column-l flex-column-reverse pb2">
         <div className="pt0-l pt5 flex flex-column-l flex-row justify-between">

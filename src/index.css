@@ -4,6 +4,10 @@
   --coffee: #dabfb1;
 }
 
+html {
+  min-height: 100%;
+}
+
 body {
   background: linear-gradient(45deg, #342622, #131211);
   /* background: url('./images/white-dot.svg'), linear-gradient(45deg, #342622, #131211); */
@@ -49,6 +53,11 @@ a {
   color: var(--coffee);
   font-weight: 400;
   text-decoration: none;
+  transition: .2s ease-in all;
+}
+
+a:hover {
+  color: #be8e74;
 }
 
 h1 {
