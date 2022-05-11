@@ -91,18 +91,19 @@ header {
   background: #1d3f4e;
   border-radius: 360%;
   filter: blur(35px);
-  height: 250px;
+  height: 300px;
   left: 250px;
-  opacity: .4;
+  opacity: .25;
   position: absolute;
+  transition: 7s linear all;
   top: 250px;
-  width: 250px;
+  width: 300px;
   z-index: -1;
 }
 
 .shine--right {
   filter: blur(60px);
-  height: 350px;
+  height: 400px;
   left: auto;
   right: 250px;
   top: 450px;
