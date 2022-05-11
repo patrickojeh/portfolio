@@ -93,7 +93,7 @@ header {
   filter: blur(35px);
   height: 300px;
   left: 250px;
-  opacity: .25;
+  opacity: .35;
   position: absolute;
   transition: 7s linear all;
   top: 250px;
