@@ -71,6 +71,10 @@ p {
   line-height: 1.6;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 ::selection {
   background: #000;
 }
