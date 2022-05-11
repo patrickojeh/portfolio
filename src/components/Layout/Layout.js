@@ -5,6 +5,13 @@ import Footer from "./Footer";
 const Layout = (props) => {
   const content = props.children;
   return <Fragment>
+    {
+      props.shine &&
+      <div className="shine-container">
+        <div className="shine"></div>
+        <div className="shine shine--right"></div>
+      </div>
+    }
     <Header />
       <main>
         { content }

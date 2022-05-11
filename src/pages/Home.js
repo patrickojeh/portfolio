@@ -8,7 +8,7 @@ import ussdCoverImage from '../images/projects/ussd/cover.png';
 import whiteArrow from '../images/white-arrow.svg';
 
 const Home = () => {
-  return <Layout>
+  return <Layout shine="true">
     <div className="mw9 ph5-l ph4-ns ph35 center pt6-l pt5">
       <img src={signature} alt="My signature in svg" className="signature h25 mb3" />
       <h1 className="mw8 pr6-l mb5-l mb4">Hi, I am Patrick Ojeh. I’m a product designer based in Lagos, Nigeria. <span>I previously worked at Mobnia, a design &amp; development agency. I have experience in visual design, prototyping, CSS architecture &amp; front-end development.</span></h1>
@@ -24,8 +24,6 @@ const Home = () => {
           </a> */}
         </div>
       </div>
-      <div className="shine"></div>
-      <div className="shine shine--right"></div>
       <Link to="/work" className="sideNav dn flex-l">
           <span>Work</span>
           <img src={whiteArrow} />
