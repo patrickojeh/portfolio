@@ -21,7 +21,7 @@ const Layout = (props) => {
       shineRefA.current.style.left = `${randomWidthA}px`;
       shineRefB.current.style.top = `${randomHeightB}px`;
       shineRefB.current.style.right = `${randomWidthB}px`;
-    }, 7000);
+    }, 6500);
     return () => {
       window.clearInterval(c);
     }
