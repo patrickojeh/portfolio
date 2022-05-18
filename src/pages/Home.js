@@ -29,7 +29,7 @@ const Home = () => {
           <span>Work</span>
           <img src={whiteArrow} />
       </Link> */}
-      <div className="work__grid mt5 mb4">
+      <div className="work__grid mt5-l mt4 mb4">
         <a href="" className="work__card work__card--prowork">
           <div className="ph4 pt3 pt4-l">
             <div className="ph3-l">
@@ -37,7 +37,7 @@ const Home = () => {
               <p className='small mt0'>Redesigning a project management and collaboration application.</p>
             </div>
           </div>
-          <div className="pl4 pt2-l">
+          <div className="pl4 pt2">
             <div className="pl3-l">
               <img src={proworkThumbnail} />
             </div>
