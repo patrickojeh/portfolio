@@ -24,10 +24,10 @@ const Home = () => {
           </a> */}
         </div>
       </div>
-      <Link to="/work" className="sideNav dn flex-l">
+      {/* <Link to="/work" className="sideNav dn flex-l">
           <span>Work</span>
           <img src={whiteArrow} />
-      </Link>
+      </Link> */}
     </div>
   </Layout>
 }
