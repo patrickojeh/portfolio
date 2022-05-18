@@ -34,7 +34,7 @@ const Home = () => {
         <a href="" className="work__card work__card--prowork">
           <div className="pt3 pt3-l pb4">
             <img src={proworkThumbnail} />
-              <p className='mt3 pt1'>Redesigning project management and collaboration application.</p>
+              <p className='mt3 pt1'>Redesigning a project management and collaboration application.</p>
           </div>
         </a>
         <a href="" className='work__card'>
