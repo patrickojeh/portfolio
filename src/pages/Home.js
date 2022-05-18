@@ -34,7 +34,7 @@ const Home = () => {
           <div className="ph4 pt3 pt3-l">
             <div className="ph2-l">
               <h2 className='mb3'>Prowork</h2>
-              <p className='small mt0'>Redesigning a project management and collaboration application.</p>
+              <p className='mt0'>Redesigning a project management and collaboration application.</p>
             </div>
           </div>
           <div className="pl4 pt2">
