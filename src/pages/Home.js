@@ -7,6 +7,7 @@ import todoCoverImage from '../images/projects/todo/cover.svg';
 import ussdCoverImage from '../images/projects/ussd/cover.png';
 import whiteArrow from '../images/white-arrow.svg';
 import proworkThumbnail from '../images/projects/prowork/thumbnail.png';
+import rccgThumbnail from '../images/projects/rccg/thumbnail.png';
 
 const Home = () => {
   return <Layout shine="true">
@@ -31,16 +32,15 @@ const Home = () => {
       </Link> */}
       <div className="work__grid mt5-l mt4 mb4">
         <a href="" className="work__card work__card--prowork">
-          <div className="ph4 pt3 pt3-l">
-            <div className="ph2-l">
-              <h2 className='mb3'>Prowork</h2>
-              <p className='mt0'>Redesigning a project management and collaboration application.</p>
-            </div>
+          <div className="pt3 pt3-l pb4">
+            <img src={proworkThumbnail} />
+              <p className='mt3 pt1'>Redesigning project management and collaboration application.</p>
           </div>
-          <div className="pl4 pt2">
-            <div className="pl2-l">
-              <img src={proworkThumbnail} />
-            </div>
+        </a>
+        <a href="" className='work__card'>
+        <div className="pt3 pt3-l pb4">
+            <img src={rccgThumbnail} />
+              <p className='mt3 pt1'>RCCG mobile app</p>
           </div>
         </a>
         <a href="" className='work__card'></a>
