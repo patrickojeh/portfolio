@@ -37,7 +37,7 @@ const Home = () => {
               <p className='small mt0'>Redesigning a project management and collaboration application.</p>
             </div>
           </div>
-          <div className="pl4 pt2">
+          <div className="pl4 pt2-l">
             <div className="pl3-l">
               <img src={proworkThumbnail} />
             </div>
