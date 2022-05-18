@@ -10,25 +10,25 @@ const Layout = (props) => {
   const shineRefA = useRef();
   const shineRefB = useRef();
 
-  useEffect(() => {
-    const c = window.setInterval(() => {
-      const randomHeightA = Math.round(Math.random() * pageHeight);
-      const randomWidthA = Math.round(Math.random() * pageWidth);
-      const randomHeightB = Math.round(Math.random() * pageHeight);
-      const randomWidthB = Math.round(Math.random() * pageWidth);
+  // useEffect(() => {
+  //   const c = window.setInterval(() => {
+  //     const randomHeightA = Math.round(Math.random() * pageHeight);
+  //     const randomWidthA = Math.round(Math.random() * pageWidth);
+  //     const randomHeightB = Math.round(Math.random() * pageHeight);
+  //     const randomWidthB = Math.round(Math.random() * pageWidth);
 
-      shineRefA.current.style.top = `${randomHeightA}px`;
-      shineRefA.current.style.left = `${randomWidthA}px`;
-      shineRefB.current.style.top = `${randomHeightB}px`;
-      shineRefB.current.style.right = `${randomWidthB}px`;
-    }, 6500);
-    return () => {
-      window.clearInterval(c);
-    }
-  }, [])
+  //     shineRefA.current.style.top = `${randomHeightA}px`;
+  //     shineRefA.current.style.left = `${randomWidthA}px`;
+  //     shineRefB.current.style.top = `${randomHeightB}px`;
+  //     shineRefB.current.style.right = `${randomWidthB}px`;
+  //   }, 6500);
+  //   return () => {
+  //     window.clearInterval(c);
+  //   }
+  // }, [])
   return <Fragment>
     {
-      props.shine &&
+      !props.shine &&
       <div className="shine-container">
         <div className="shine" ref={shineRefA}></div>
         <div className="shine shine--right" ref={shineRefB}></div>

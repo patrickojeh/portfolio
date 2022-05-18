@@ -99,7 +99,7 @@ header {
   top: 250px;
   width: 300px;
   z-index: -1;
-
+  display: none;
 }
 
 .shine--right {
