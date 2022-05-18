@@ -122,6 +122,20 @@ header {
 .work__card img {
   border-radius: 4px;
 }
+span.star {
+  position: relative;
+}
+span.star::before {
+  content: '';
+  background: url('./images/star.gif') no-repeat transparent;
+  background-size: contain;
+  top: -20px;
+  right: -18px;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  z-index: -1;
+}
 
 @media screen and (min-width: 60em) {
   .f2-l {

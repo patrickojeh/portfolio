@@ -16,7 +16,7 @@ const Home = () => {
       <h1 className="mw8 pr6-l mb5-l mb4">Hi, I am Patrick Ojeh. I’m a product designer based in Lagos, Nigeria. <span>I most recently worked in a design and development agency, solving challenging problems through thoughtful human-centered designs for small startups and large organizations.</span></h1>
       <div className="flex flex-column flex-row-l justify-between">
         <div className="w-50-l">
-          <p>I have an intense attention to craft and focus on driving impact through a great product. My solutions are backed by a combination of user research, accessibility, and usability techniques.</p>
+          <p>I have an intense <span className='star'>attention</span> to craft and focus on driving impact through a great product. My solutions are backed by a combination of user research, accessibility, and usability techniques.</p>
           <p>In my spare time, you'd find me learning something new, playing video games, or working on a personal project.</p>
         </div>
         <div className="w-40-l">
