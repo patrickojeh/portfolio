@@ -84,22 +84,25 @@ main {
 }
 
 ::-webkit-scrollbar {
-  width: 0.6em;
+  width: 0.5em;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--black);
+  background: #202020;
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #151312;
-  outline: 1px solid #151312;
+  background-color: #474c50;
+  outline: 1px solid #474c50;
 }
 
 @media screen and (min-width: 60em) {
   h1 {
     font-size: 2rem !important;
+  }
+  h2 {
+    font-size: 1.75rem !important;
   }
   p {
     font-size: 1.15rem;

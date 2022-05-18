@@ -6,6 +6,7 @@ import proworkCoverImageMobile from '../images/projects/prowork/cover.png';
 import todoCoverImage from '../images/projects/todo/cover.svg';
 import ussdCoverImage from '../images/projects/ussd/cover.png';
 import whiteArrow from '../images/white-arrow.svg';
+import proworkThumbnail from '../images/projects/prowork/thumbnail.png';
 
 const Home = () => {
   return <Layout shine="true">
@@ -28,6 +29,22 @@ const Home = () => {
           <span>Work</span>
           <img src={whiteArrow} />
       </Link> */}
+      <div className="work__grid mt5 mb4">
+        <a href="" className="work__card work__card--prowork">
+          <div className="ph4 pt4">
+            <div className="ph3">
+              <h2 className='mb3'>Prowork</h2>
+              <p className='small mt0'>Redesigning a project management and collaboration application.</p>
+            </div>
+          </div>
+          <div className="pl4 pt2">
+            <div className="pl3">
+              <img src={proworkThumbnail} />
+            </div>
+          </div>
+        </a>
+        <a href="" className='work__card'></a>
+      </div>
     </div>
   </Layout>
 }
