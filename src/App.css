@@ -171,9 +171,6 @@ span.star::before {
   .small {
     font-size: 0.88rem;
   }
-  p.small {
-    font-size: 1rem;
-  }
   .work__grid {
     flex-direction: row;
     grid-gap: 48px;
