@@ -34,6 +34,7 @@ header {
   top: 0;
   margin-top: 18px;
   padding: 14px 0;
+  z-index: 1;
 }
 .resume-link {
   background: #232323;
@@ -121,6 +122,20 @@ header {
 }
 .work__card img {
   border-radius: 4px;
+}
+.work__card:hover img {
+  animation: .3s rubber linear forwards;
+}
+@keyframes rubber {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 span.star {
   position: relative;
