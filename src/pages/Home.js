@@ -17,7 +17,7 @@ const Home = () => {
       <div className="flex flex-column flex-row-l justify-between">
         <div className="w-50-l">
           <p>I have an intense <span className='star'>attention</span> to craft and focus on driving impact through a great product. My solutions are backed by a combination of user research, accessibility, and usability techniques.</p>
-          <p>In my spare time, you'd find me learning something new, playing video games, or working on a personal project.</p>
+          <p>In my spare time, you'd find me learning something new, playing video games, or working on personal projects. Here's my most recent <a target="_blank" href='https://todo.patrickojeh.com/'>personal project</a>.</p>
         </div>
         <div className="w-40-l">
           {/* <a href="/resume.pdf" className="resume-link flex justify-between" target="_blank">
