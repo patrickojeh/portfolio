@@ -110,7 +110,8 @@ header {
   top: 450px;
 }
 .work__grid {
-  display: flex;
+  /* display: flex; */
+  display: none !important;
   grid-gap: 0;
   flex-direction: column;
   align-items: center;
@@ -172,7 +173,6 @@ span.star::before {
     font-size: 0.88rem;
   }
   .work__grid {
-    display: none;
     flex-direction: row;
     grid-gap: 48px;
   }
