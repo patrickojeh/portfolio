@@ -172,6 +172,7 @@ span.star::before {
     font-size: 0.88rem;
   }
   .work__grid {
+    display: none;
     flex-direction: row;
     grid-gap: 48px;
   }
