@@ -24,7 +24,7 @@ html {
 	font-family: $primary-font;
 	font-size: 1rem;
   font-size: max(1rem, 16px);
-  min-height: calc(100vh - 48px);
+  height: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -34,7 +34,7 @@ body {
   color: $near-white;
   display: grid;
   grid-template-rows: 1fr auto;
-  min-height: 100vh;
+  min-height: calc(100vh - 48px);
   opacity: 0;
 }
 
