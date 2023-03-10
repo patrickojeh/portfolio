@@ -24,7 +24,7 @@ html {
 	font-family: $primary-font;
 	font-size: 1rem;
   font-size: max(1rem, 16px);
-  min-height: 100%;
+  height: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
