@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
 	setTimeout(() => {
 		document.documentElement.className = 'loaded';
 		footerTextEntrance();
-	}, 1500)
+	}, 1500)	
 
 	highlightContactInfo();	
 });
@@ -27,7 +27,13 @@ function footerTextEntrance() {
 
 function highlightContactInfo() {
 	const footer = document.querySelector('.footer');
+	const contactLinks = document.querySelectorAll('.header__contact a');
 	const bodyClass = document.body.classList;
+
+	contactLinks.forEach(link => {
+		link.addEventListener('mouseover', () => bodyClass.add('dim'));
+		link.addEventListener('mouseout', () => bodyClass.remove('dim'));
+	})
 	footer.addEventListener('mouseover', () => bodyClass.add('dim'));
 	footer.addEventListener('mouseout', () => bodyClass.remove('dim'));
 }
