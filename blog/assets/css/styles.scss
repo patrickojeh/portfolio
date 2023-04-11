@@ -1,16 +1,16 @@
 ---
 ---
-@import "utilities/variables";
+@import "./utilities/variables";
 
-@import "base/resets";
-@import "base/typography";
-@import "base/responsive";
+@import "./base/resets";
+@import "./base/typography";
+@import "./base/responsive";
 
-@import "layout/header";
-@import "layout/container";
-@import "layout/footer";
+@import "./layout/header";
+@import "./layout/container";
+@import "./layout/footer";
 
-@import "pages/home";
-@import "pages/post";
+@import "./pages/home";
+@import "./pages/post";
 
-@import "vendor/pygments";
+@import "./vendor/pygments";
