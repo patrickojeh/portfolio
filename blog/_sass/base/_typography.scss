@@ -1,0 +1,48 @@
+html {
+  font-family: $primary-font;
+  font-size: 1rem;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3 {
+  color: $white;
+  font-family: $primary-font;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 130%;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+p {
+
+}
+
+a {
+  color: $white;
+}
+
+small {
+  font-size: .9rem;
+}
+
+.post {
+  &__published {
+    color: $near-white;
+  }
+  &__content {
+    font-size: 1.12rem;
+    line-height: 145%;
+  }
+}

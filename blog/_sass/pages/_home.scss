@@ -1,0 +1,23 @@
+.home {
+  min-height: 65vh;
+  padding: 40px 0 0;
+  &__posts {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-size: 1.15rem;
+    margin-top: 48px;
+    a {
+      color: $white;
+    }
+    li {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    li span {
+      color: #aaa;
+      font-size: .9rem;
+    }
+  }
+}

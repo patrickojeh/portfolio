@@ -1,0 +1,13 @@
+.post {
+  padding: 40px 0 0;
+  &__title {
+    padding-bottom: 6px;
+  }
+  &__content {
+    padding-top: 64px;
+    figure,
+    p {
+      margin-bottom: 24px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.footer {
+  font-size: .9rem;
+  padding: 48px 32px;
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+  a {
+    color: rgba($near-white, .4);
+  }
+  hr {
+    background: rgba($near-white, .1);
+    margin: 32px 0;
+  }
+  p {
+    color: rgba($near-white, .4);
+    &:first-child {
+      color: rgba($near-white, .4);
+      max-width: 50ch;
+      line-height: 145%;
+    }
+  }
+  ul {
+    display: flex;
+    gap: 24px;
+  }
+}

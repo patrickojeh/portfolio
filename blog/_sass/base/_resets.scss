@@ -1,0 +1,68 @@
+:root {
+  --selection-bg: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $near-black;
+  color: $near-white;
+  &::-webkit-scrollbar {
+    width: 1.1rem;
+  }
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 20px #444;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #6b6b6b;
+    background-clip: content-box;
+    border-radius: 30px;
+    border: 4px solid transparent;
+  }
+}
+
+code,
+pre {
+  background-color: #151718;
+  border: 1px solid #000;
+  border-radius: 3px;
+  color: $white;
+  font-size: 15px;
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+  & > code {
+    border: none;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+hr {
+  background: #333;
+  border: none;
+  height: 1px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  transition: .2s ease-in;
+  &:hover {
+    color: #d68862;
+  }
+}
+
+::selection {
+  background: var(--selection-bg);
+  color: $white;
+}

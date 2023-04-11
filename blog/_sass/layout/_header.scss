@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  font-size: 1.05rem;
+  justify-content: space-between;
+  padding: 24px 32px;
+  position: sticky;
+  top: 0;
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    span {
+      color: #aaa;
+    }
+    .active {
+      display: inline-block;
+      position: relative;
+      &::before {
+        background: #d68862;
+        border-radius: 8px;
+        bottom: -8px;
+        content: '';
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;        
+        transform: translate(-50%, 0);
+        width: 16px;
+      }
+    }
+  }
+}
