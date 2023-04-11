@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Converting Express apps to Netlify functions"
-date: 2099-04-11 00:00:00 +0100
+date: 2023-04-11 00:00:00 +0100
 categories: express.js netlify hosting
 ---
 

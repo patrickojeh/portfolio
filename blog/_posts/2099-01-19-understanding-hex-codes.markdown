@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding hex codes"
-date: 2023-01-18 20:49:26 +0100
+date: 2099-01-18 20:49:26 +0100
 categories: express.js netlify
 ---
 
