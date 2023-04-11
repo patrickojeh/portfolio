@@ -24,6 +24,10 @@ body {
   }
 }
 
+code {
+  word-break: break-all;
+}
+
 code,
 pre {
   background-color: #151718;
