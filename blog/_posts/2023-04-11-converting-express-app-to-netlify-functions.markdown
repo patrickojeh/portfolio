@@ -132,7 +132,9 @@ scripts: {
 5. Run the command `npm run dev`. This lets Netlify load our Lambda functions and give us a server to preview our app.
 
 <br/>
-...And then finally, you can preview the api at `http://localhost:8888/.netlify/functions/users`
+...and then finally, you can preview the api at `http://localhost:8888/.netlify/functions/users`
+
+If you're interested in exploring the final code used in this project, you can find it on my Github repository. Feel free to fork or submit any issues you encounter.
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]: https://github.com/jekyll/jekyll
