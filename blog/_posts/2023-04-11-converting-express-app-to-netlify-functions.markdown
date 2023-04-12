@@ -5,7 +5,7 @@ date: 2023-04-11 00:00:00 +0100
 categories: express.js netlify hosting
 ---
 
-I had recently created an api in Express, ready to deploy to Heroku but then I realized that Heroku [no longer] offers a free plan. I tried my debit cards on the platform, and that didn't work for me either; which only meant one thing - I needed to host elsewhere.
+I had recently created an api in Express, ready to deploy to Heroku but then realized that Heroku [no longer] offers a free plan. I tried my debit cards on the platform, and that didn't work for me either; which only meant one thing - I needed to host elsewhere.
 
 So, I explored alternatives like [Render]{:target="\_blank"} and [Cyclic]{:target="\_blank"}. I particularly liked Cyclic, because there are no 'inactivity delays' (your app does not sleep even when it doesn't receive any traffic), but the idea of managing both the static and server side configuration from one dashboard, was why i settled for Netlify.
 
@@ -15,7 +15,7 @@ Having a project in Express would be helpful to follow along, so I'll go ahead a
 
 1. Create a package.json file using `npm init -y`
 
-2. Install the necessary dependencies. For this example, that would be Express and Nodemon (we're using Nodemon to watch for file changes) &mdash; `npm i express && npm i -D nodemon`
+2. Install the necessary dependencies. For this example, that would be Express and Nodemon (I'm using Nodemon to watch for file changes) &mdash; `npm i express && npm i -D nodemon`
 
 3. Modify the scripts property in your `package.json`. This is where Nodemon comes in handy &mdash;
 {% highlight ruby %}
@@ -47,7 +47,7 @@ app.get('/users', (req, res) => {
 app.listen(port, () => console.log(`Listening on port ${port}`));
 {% endhighlight %}
 {:start="5"}
-5. Finally, we'll want to start our development server by using the command `npm run dev`  
+5. Finally, you would want to start our development server by using the command `npm run dev`  
 
 <br/>
 Now, making requests to the url (i.e. `http://localhost:4000/users`) should return our list of users.
@@ -57,10 +57,10 @@ Now, making requests to the url (i.e. `http://localhost:4000/users`) should retu
 
 Netlify Lambda functions are in summary, anonymous functions that are tied to a particular route.
 
-We don't need to have Express installed to use a Lambda function, and we can as well get rid of our Nodemon dev dependency
+You don't need to have Express installed to use a Lambda function, and you can as well get rid of our Nodemon dev dependency
 `npm un express nodemon`
 
-However, we do need to have the [Netlify cli](https://docs.netlify.com/cli/get-started){:target="\_blank"} installed. You can use the command  `npm i netlify-cli -g` to install globally.
+However, you do need to have the [Netlify cli](https://docs.netlify.com/cli/get-started){:target="\_blank"} installed, using the command  `npm i netlify-cli -g` to install globally.
 
 For the syntax of a Lambda function, here's what that looks like
 {% highlight ruby %}
@@ -68,13 +68,13 @@ module.exports.handler = (event, context, callback) => {
 #=> our code here
 }
 {% endhighlight %}
-In the code above, we're using common js syntax `module.exports` to export a `handler` function that receives 3 parameters. The first parameter `event` is an object containing information about the incoming request; The `context` parameter on the other hand is a read-only object pre-populated with AWS and Netlify-specific stuff; And finally, the `callback` parameter, which is how we tell Lambda what response to send back.
+In the code above, I'm using common js syntax `module.exports` to export a `handler` function that receives 3 parameters. The first parameter `event` is an object containing information about the incoming request; The `context` parameter on the other hand is a read-only object pre-populated with AWS and Netlify-specific stuff; And finally, the `callback` parameter, which is how we tell Lambda what response to send back.
 
 ### The Netlify.toml file
 
 This is a configuration file normally stored at the root level of your website's directory that contains instructions on how Netlify builds and deploys your site.
 
-To ensure Netlify recognizes our Lambda function, we need to add one of those instructions in our `netlify.toml` file.
+To ensure Netlify recognizes our Lambda function, you need to add one of those instructions in our `netlify.toml` file.
 
 In your root directory, create a file called `netlify.toml` containing the following code
 
@@ -87,7 +87,7 @@ What this does is instruct Netlify, as part of our build command to find our Lam
 
 ### Putting it all together
 
-Now we are familiar with the bits and pieces, here's a walk-through of a quick setup.
+Now that the bits and pieces are out of the way, here's a walk-through of a quick setup.
 
 1. Create a `netlify.toml` file at the root level
 {% highlight ruby %}
@@ -96,7 +96,7 @@ Now we are familiar with the bits and pieces, here's a walk-through of a quick s
 {% endhighlight %}
 {:start="2"}
 2. Create a folder called `functions`. Name must match the directory name specified in your `netlify.toml`
-3. Inside your `functions` directory, we'll be creating a file called `users.js`. This file contains code for our `users` endpoint. The functionality is pretty much the same as we had in our Express code
+3. Inside your `functions` directory, create a file called `users.js`. This file contains code for our `users` endpoint. The functionality is pretty much the same as I had in the earlier Express code
 
 {% highlight ruby %}
 module.exports.handler = (event, context, callback) => {
@@ -118,7 +118,7 @@ module.exports.handler = (event, context, callback) => {
 }
 {% endhighlight %}
 
-Note that the `callback()` function is responsible for what we return as a response. In our Express code above, this was `res.json()`.
+Note that the `callback()` function is responsible for what to return as a response. In the former Express code above, this was `res.json()`.
 
 {:start="4"}
 4. Change the scripts property in your `package.json`
@@ -132,7 +132,7 @@ scripts: {
 5. Run the command `npm run dev`. This lets Netlify load our Lambda functions and give us a server to preview our app.
 
 <br/>
-...And finally we can preview our api at `http://localhost:8888/.netlify/functions/users`
+...And then finally, you can preview the api at `http://localhost:8888/.netlify/functions/users`
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]: https://github.com/jekyll/jekyll
