@@ -68,7 +68,7 @@ module.exports.handler = (event, context, callback) => {
 #=> our code here
 }
 {% endhighlight %}
-In the code above, I'm using common js syntax `module.exports` to export a `handler` function that receives 3 parameters. The first parameter `event` is an object containing information about the incoming request; The `context` parameter on the other hand is a read-only object pre-populated with AWS and Netlify-specific stuff; And finally, the `callback` parameter, which is how we tell Lambda what response to send back.
+In the code above, I'm using CommonJS syntax `module.exports` to export a `handler` function that receives 3 parameters. The first parameter `event` is an object containing information about the incoming request; The `context` parameter on the other hand is a read-only object pre-populated with AWS and Netlify-specific stuff; And finally, the `callback` parameter, which is how we tell Lambda what response to send back.
 
 ### The Netlify.toml file
 
