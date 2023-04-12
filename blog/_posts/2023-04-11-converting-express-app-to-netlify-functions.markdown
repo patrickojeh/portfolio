@@ -134,11 +134,10 @@ scripts: {
 <br/>
 ...and then finally, you can preview the api at `http://localhost:8888/.netlify/functions/users`
 
-If you're interested in exploring the final code used in this project, you can find it on my Github repository. Feel free to fork or submit any issues you encounter.
+If you're interested in exploring the final code used in this project, you can find it on my [Github repository]. Feel free to fork or submit any issues you encounter.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+
 [cyclic]: https://www.cyclic.sh/
 [render]: https://render.com/
 [no longer]: https://techcrunch.com/2022/08/25/heroku-announces-plans-to-eliminate-free-plans-blaming-fraud-and-abuse/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAANGiW7s9KSus9ZbYLMJMFGlXLbmr25R3G8E-XQUeQGXMLv2JNXie4THQk_YKo7wg-vCgeY41S0ha_iTElFzykMXLC_KA7thl-duAfdMo8q0aT24_ePo94UnISPCzUQqzxfQkCtJ2Z7wt14sDgyEU_emhz1Hp94AcVB79ABoSexVx
+[Github repository]: https://github.com/patrickojeh/converting-express-to-netlify-code
